@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>be.better</groupId>
-    <artifactId>parent-pom</artifactId>
-    <version>0.1</version>
+    <groupId>bepicky</groupId>
+    <artifactId>common-pom</artifactId>
+    <version>2.14</version>
     <packaging>pom</packaging>
 
-    <name>better-parent-pom</name>
+    <name>common-pom</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,14 +17,14 @@
         <spring-boot.version>2.5.4</spring-boot.version>
         <lombok.version>1.18.12</lombok.version>
         <spring-cloud.version>3.0.3</spring-cloud.version>
-        <java.version>15</java.version>
+        <java.version>11</java.version>
     </properties>
 
     <distributionManagement>
         <repository>
-            <id>just-be</id>
-            <name>better-artifactory</name>
-            <url>https://maven.pkg.github.com/just-be-organisation/better-artifactory</url>
+            <id>na</id>
+            <name>news-aggregator-bot</name>
+            <url>https://maven.pkg.github.com/news-aggregator-bot/artifactory</url>
         </repository>
     </distributionManagement>
 
